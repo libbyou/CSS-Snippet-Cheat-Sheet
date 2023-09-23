@@ -1,0 +1,48 @@
+:root {
+    --burgundy: #8d1c3d;
+    --white: #fff;
+}
+
+* {
+    background-color: grey;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: var(--burgundy);
+    font-size: 50px;
+    margin: 20px;
+}
+
+header p {
+    color: var(--white)
+}
+
+section{
+    display: flex;
+}
+
+article {
+    border-style: dashed;
+    border-color: var(--white);
+    border-width: 1px;
+    padding: 10px;
+    width: 25%;
+    flex-wrap: wrap;
+}
+
+article h2 {
+    color: var(--burgundy);
+    border: 2px solid var(--white);
+    border-radius: 15px;
+}
+
+pre {
+    font-family: monospace;
+    color: var(--white);
+    background: linear-gradient(0deg, var(--burgundy), #4a0404);
+    border-radius: 15px;
+}
