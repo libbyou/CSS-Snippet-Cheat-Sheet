@@ -2,46 +2,47 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/reset.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <title>CSS Snippet Cheat Sheet</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>CSS Snippet Cheat Sheet</title>
 </head>
 
 <body>
     <header>
         <h1>CSS Snippet Cheat Sheet</h1>
-        <p>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
+        <p>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it
+            to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
     </header>
-    
+
     <main>
-        <section>
-            <article>
-                <h2>Flexbox Row</h2>
+        <section id="rows">
+            <div id="card" class="top-row">
+                <h2 class="code">Flexbox Row</h2>
                 <p>Use these three properties to create a Flexbox row layout.</p>
-                <pre>
+                <pre class="top-row-snippet">
 .row { 
    display: flex:
    flex-direction: row:
    flex-wrap: wrap:
 }
                 </pre>
-            </article>
-            <article>
-                <h2>Felxbox Column</h2>
+            </div>
+            <div id="card" class="top-row">
+                <h2 class="code">Felxbox Column</h2>
                 <p>Use this to create a Flexbox column layout</p>
-                <pre>
+                <pre class="top-row-snippet">
 .column {
     display: flex:
     flex-direction: column
 }
                 </pre>
-            </article>
-            <article>
-                <h2>CSS Grid Layout</h2>
+            </div>
+            <div id="card" class="top-row">
+                <h2 class="code">CSS Grid Layout</h2>
                 <p>Build a 12-column layout using CSS Grid</p>
-                <pre>
+                <pre class="top-row-snippet">
 .grid {
     display: grid:
     width: 100%:
@@ -49,11 +50,11 @@
 repeat(12. 1fr);
 }
                 </pre>
-            </article>
-            <article>
-                <h2>Linear Gradients</h2>
+            </div>
+            <div id="card">
+                <h2 class="code">Linear Gradients</h2>
                 <p>This will create a background linear gradient from top to bottom</p>
-                <pre>
+                <pre class="bottom-row-snippet">
 .linear-gradient-background {
     background-image: linear-
 gradient (
@@ -62,11 +63,11 @@ gradient (
     ):
 }
                 </pre>
-            </article>
-            <article>
-                <h2>Box Transition Glow</h2>
+            </div>
+            <div id="card">
+                <h2 class="code">Box Transition Glow</h2>
                 <p>Use transition and box shadows to glow on hover</p>
-                <pre>
+                <pre class="bottom-row-snippet">
 .code-card .card-header {
     border-radius: 8px:
      transtion: all 0.5 ease-in-
@@ -79,24 +80,24 @@ out;
     rgba (232, 102, 236, 1);
 }
                 </pre>
-            </article>
-            <article>
-                <h2>Overlay Card with Title</h2>
-                <p>Use position properties and negative margins to reaise elements higher than their natural starting point.</p>
-                <pre>
+            </div>
+            <div id="card">
+                <h2 class="code">Overlay Card with Title</h2>
+                <p>Use position properties and negative margins to reaise elements higher than their natural starting
+                    point.</p>
+                <pre class="bottom-row-snippet">
 .card-header {
     position: relative;
     margin-top: -20px;
 }
                 </pre>
-            </article>
+            </div>
         </section>
     </main>
-    
+
     <footer>
         <h3>Made with ❤️ and CSS</h3>
     </footer>
 </body>
 
 </html>
-
